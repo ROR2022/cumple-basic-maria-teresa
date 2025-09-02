@@ -4,7 +4,7 @@
 export const dataCumpleExpress = {
   title: "Mi Fiesta de Cumpleaños",
   description: "Invitación de Cumpleaños",
-  groom: "Teresa Borja",
+  groom: "Maria Teresa Borja",
   confirmationNumber: "5215533475056", //+52 1 55 3347 5056
   date: "18 de Octubre de 2025",
   locationCeremony: "Priv Amacuzac num 23 col san Andrés Tetepilco",

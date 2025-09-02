@@ -38,7 +38,7 @@ const CumpleExpress = () => {
 
         {/* Nombre del festejado */}
         <div className="mb-8 bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105 animate-slide-up-fade animation-delay-600">
-          <div className="flex items-center justify-center gap-4 text-2xl md:text-3xl font-serif">
+          <div className="flex items-center justify-center gap-4 text-3xl md:text-4xl font-serif">
             <span className="text-blue-200 text-shadow-lg animate-slide-in-left animation-delay-700">
               {dataCumpleExpress.groom}
             </span>            
@@ -53,7 +53,7 @@ const CumpleExpress = () => {
               <Calendar className="w-5 h-5 text-pink-300" />
               <span className="font-semibold text-pink-100">Fecha</span>
             </div>
-            <p className="text-white font-medium">{dataCumpleExpress.date}</p>
+            <p className="text-white text-xl">{dataCumpleExpress.date}</p>
           </div>
 
           {/* Invitados */}
@@ -62,7 +62,7 @@ const CumpleExpress = () => {
               <Heart className="w-5 h-5 text-pink-300" />
               <span className="font-semibold text-pink-100">DJ</span>
             </div>
-            <p className="text-white font-medium">
+            <p className="text-white text-xl">
               El DJ comienza a las 7:00 PM
             </p>
           </div>
@@ -102,12 +102,12 @@ const CumpleExpress = () => {
               <MapPin className="w-5 h-5 text-green-300" />
               <span className="font-semibold text-green-100">Recepción</span>
             </div>
-            <p className="text-white font-medium">
+            <p className="text-white text-xl">
               {dataCumpleExpress.locationReception}
             </p>
             <div className="flex items-center gap-2 mt-1">
               <Clock className="w-4 h-4 text-green-200" />
-              <span className="text-green-100 text-sm">
+              <span className="text-green-100 text-xl">
                 {dataCumpleExpress.receptionTime}
               </span>
             </div>
