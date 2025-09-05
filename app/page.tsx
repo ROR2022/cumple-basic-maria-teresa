@@ -6,8 +6,8 @@ import Link from 'next/link'
 const page = () => {
   return (
     <div>
-      <CumpleExpress />
-      <PremiumGallery />
+      {/* <CumpleExpress />
+      <PremiumGallery /> */}
       <Link href="https://www.invitacionesweb.lat">
         <div className="p-3 bg-blue-600 text-white rounded-lg flex flex-col justify-center items-center">
           <p>Tienes un evento?</p>
